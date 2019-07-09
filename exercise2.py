@@ -14,3 +14,12 @@ print ("45628 multiplied by 7839 equals " + str(45628 * 7839) + "!")
                 #  false or true
                 #  true 
 print ((10 < 20 and 30 < 20) or not(10 == 11))
+
+# variables example: 
+
+name = "Sandra"
+greeting = "Hello {}! It's good to see you again.".format(name)
+mission = "Your mission, should you choose to accept it..."
+
+print("{} {}".format(greeting, mission))
+
