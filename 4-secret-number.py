@@ -1,6 +1,6 @@
 # secret number 
 
-secret_number = 155
+secret_number = 87
 guess = int(input())
 
 if guess == secret_number:
